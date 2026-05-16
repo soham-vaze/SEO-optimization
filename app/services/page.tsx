@@ -1,5 +1,13 @@
 import Navbar from "@/components/Navbar";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "SEO Services | AI SEO Solutions",
+  description:
+    "Explore technical SEO, on-page SEO and AI SEO services.",
+};
+
 export default function Services() {
   return (
     <>

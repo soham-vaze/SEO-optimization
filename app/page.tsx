@@ -3,12 +3,27 @@ import Footer from "@/components/Footer";
 import Image from "next/image";
 
 export default function Home() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "AI SEO Solutions",
+    url: "https://aiseosolutions.demo",
+    description:
+      "Experts in technical SEO, on-page SEO and AI SEO.",
+  };
+
   return (
     <>
       <Navbar />
 
-      <main className="max-w-6xl mx-auto px-6 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schema),
+        }}
+      />
 
+      <main className="max-w-6xl mx-auto px-6 py-12">
         <h1 className="text-5xl font-bold mb-6">
           AI SEO Solutions for the Future of Search
         </h1>
@@ -36,9 +51,11 @@ export default function Home() {
             <li className="p-6 shadow rounded-xl">
               Technical SEO Audits
             </li>
+
             <li className="p-6 shadow rounded-xl">
               On-Page Optimization
             </li>
+
             <li className="p-6 shadow rounded-xl">
               AI SEO / GEO
             </li>
@@ -51,4 +68,5 @@ export default function Home() {
   );
 }
 
-// Improvement: keyword relevance, headings, alt text, internal semantics
+// Improvement: keyword relevance, headings, alt text, internal semantics,
+// Imp-2: Improve schema markup, rich results

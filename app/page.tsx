@@ -1,31 +1,49 @@
-"use client";
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <Navbar />
 
-      <main className="w-[1400px] mx-auto p-10">
-        <h1 className="text-6xl mb-6">Welcome</h1>
-        <h1 className="text-4xl mb-6">AI Solutions</h1>
+      <main className="max-w-6xl mx-auto px-6 py-12">
 
-        <img
-          src="/images/hero.jpg"
-          className="w-full h-[700px] object-cover"
-        />
+        <h1 className="text-5xl font-bold mb-6">
+          AI SEO Solutions for the Future of Search
+        </h1>
 
-        <p className="mt-10 text-xl">
-          Welcome to our company. We provide services.
+        <p className="text-xl text-gray-700 mb-8">
+          We help businesses improve technical SEO, on-page SEO,
+          and AI discoverability across modern search engines and LLMs.
         </p>
 
-        <div className="mt-10">
-          <a href="/old-page" className="text-blue-700 underline">
-            Learn More
-          </a>
-        </div>
+        <Image
+          src="/images/image.jpg"
+          alt="AI SEO dashboard"
+          width={1200}
+          height={700}
+          className="rounded-xl"
+          priority
+        />
+
+        <section className="mt-12">
+          <h2 className="text-3xl font-semibold mb-4">
+            Our Core Services
+          </h2>
+
+          <ul className="grid md:grid-cols-3 gap-6">
+            <li className="p-6 shadow rounded-xl">
+              Technical SEO Audits
+            </li>
+            <li className="p-6 shadow rounded-xl">
+              On-Page Optimization
+            </li>
+            <li className="p-6 shadow rounded-xl">
+              AI SEO / GEO
+            </li>
+          </ul>
+        </section>
       </main>
 
       <Footer />
@@ -33,4 +51,4 @@ export default function Home() {
   );
 }
 
-// Intentional bad -> "use client"(client side rendering), multiple H1, raw <img>, missing alt, huge image(1.7 MB), thin content, broken link, fixed width (bad for mobile use)
+// Improvement: keyword relevance, headings, alt text, internal semantics

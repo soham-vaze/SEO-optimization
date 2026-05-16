@@ -1,10 +1,18 @@
-"use client";
-
 export default function Contact() {
   return (
-    <div className="p-10">
-      <h1>Contact</h1>
-      <input placeholder="name" className="border p-2" />
-    </div>
+    <main className="max-w-4xl mx-auto p-8">
+      <h1>Contact Us</h1>
+
+      <form className="space-y-4">
+        <input
+          className="border p-3 w-full"
+          placeholder="Your name"
+        />
+        <input
+          className="border p-3 w-full"
+          placeholder="Email"
+        />
+      </form>
+    </main>
   );
 }

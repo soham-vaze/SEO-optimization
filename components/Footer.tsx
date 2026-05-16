@@ -1,12 +1,9 @@
-"use client";
-
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white p-8 mt-20">
-      <h1>Footer</h1>
-      <p>All rights reserved</p>
+    <footer className="bg-gray-900 text-white p-10 mt-20">
+      <p>© 2026 AI SEO Solutions</p>
     </footer>
   );
 }
 
-// Bad -> multiple H1 later
+// removed duplicate H1

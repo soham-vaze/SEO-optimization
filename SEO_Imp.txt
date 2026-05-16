@@ -1,0 +1,19 @@
+On-page
+
+✅ better content
+✅ keyword relevance
+✅ H1/H2 fixed
+✅ internal links
+✅ alt text
+
+Technical
+
+✅ image works
+✅ responsive layout
+✅ no broken links
+
+(not full yet)
+
+Off-page
+
+still untouched (later)

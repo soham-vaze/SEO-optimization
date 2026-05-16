@@ -1,13 +1,21 @@
-"use client";
+export default async function BlogPost({
+  params,
+}: {
+  params: Promise<{ id: string }>
+}) {
+  const { id } = await params;
 
-export default function BlogPost() {
   return (
-    <div className="p-10">
-      <h1>Post</h1>
-      <p>This is a blog post.</p>
-      <p>It contains some information.</p>
-    </div>
+    <main className="max-w-4xl mx-auto p-8">
+      <h1 className="text-4xl font-bold mb-6">
+        {id.replace("-", " ")}
+      </h1>
+
+      <p>
+        This article explains modern SEO best practices,
+        including technical SEO, content optimization,
+        and structured data.
+      </p>
+    </main>
   );
 }
-
-// Very thin

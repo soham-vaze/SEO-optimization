@@ -1,20 +1,29 @@
-"use client";
-
 import Navbar from "@/components/Navbar";
+import Link from "next/link";
 
 export default function Blog() {
   return (
     <>
       <Navbar />
-      <div className="p-10">
-        <h1>Blog</h1>
+      <main className="max-w-5xl mx-auto p-8">
+        <h1 className="text-4xl font-bold mb-8">
+          SEO Blog
+        </h1>
 
-        <a href="/blog/1">Post 1</a>
-        <br />
-        <a href="/blog/2">Post 2</a>
-      </div>
+        <ul className="space-y-4">
+          <li>
+            <Link href="/blog/technical-seo">
+              Technical SEO Guide 2026
+            </Link>
+          </li>
+
+          <li>
+            <Link href="/blog/on-page-seo">
+              On-Page SEO Best Practices
+            </Link>
+          </li>
+        </ul>
+      </main>
     </>
   );
 }
-
-// bad titles

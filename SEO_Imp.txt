@@ -17,3 +17,175 @@ Technical
 Off-page
 
 still untouched (later)
+
+
+
+Act as a Senior SEO Engineer + Senior Full Stack Engineer.
+
+Your goal is to optimize an existing website for:
+1. Technical SEO
+2. On-page SEO
+3. Off-page SEO
+
+The website already exists and is functional.
+
+STRICT CONSTRAINTS:
+1. Do NOT break existing functionality.
+2. Do NOT alter business logic.
+3. Do NOT change APIs/contracts.
+4. UI changes must be minimal and only where required for SEO.
+5. Preserve existing design language and styling.
+6. Backend changes must not affect user workflows.
+7. All changes must be production-safe.
+
+--------------------------------------------------
+PHASE 1 — AUDIT
+--------------------------------------------------
+
+Perform a full SEO audit of the codebase.
+
+Identify:
+A. Technical SEO issues:
+- SSR/CSR problems
+- missing metadata
+- missing canonical
+- sitemap
+- robots.txt
+- schema markup
+- crawlability
+- indexability
+- page speed
+- Core Web Vitals
+- image optimization
+- lazy loading
+- render blocking
+- internal broken links
+- redirect issues
+- mobile responsiveness
+
+B. On-page SEO issues:
+- title tags
+- meta descriptions
+- heading hierarchy
+- keyword targeting
+- thin content
+- missing alt text
+- internal linking
+- duplicate content
+- E-E-A-T gaps
+- FAQ opportunities
+
+C. Off-page SEO opportunities:
+- backlink opportunities
+- social metadata
+- linkable assets
+- authority building opportunities
+
+Output:
+1. detailed findings
+2. issue severity (high/medium/low)
+3. expected SEO impact
+
+Do NOT implement yet.
+
+--------------------------------------------------
+PHASE 2 — IMPLEMENTATION PLAN
+--------------------------------------------------
+
+Create a phased implementation plan.
+
+Example format:
+
+Phase 1:
+critical technical fixes
+
+Phase 2:
+metadata + structured data
+
+Phase 3:
+content optimization
+
+Phase 4:
+internal linking
+
+Phase 5:
+performance
+
+Phase 6:
+off-page recommendations
+
+For each phase provide:
+- exact files affected
+- expected SEO benefit
+- risk level
+- rollback strategy
+
+Wait for approval before coding.
+
+--------------------------------------------------
+PHASE 3 — IMPLEMENTATION
+--------------------------------------------------
+
+After approval:
+
+Implement phase-by-phase.
+
+For every change:
+1. show file name
+2. explain why
+3. show before/after diff
+4. ensure zero functionality regression
+
+Rules:
+- prefer SSR/SSG where possible
+- use framework-native SEO features
+- use semantic HTML
+- optimize images
+- add schema markup
+- add sitemap and robots
+- add canonical tags
+- improve internal linking
+- improve content only where necessary
+- preserve current UX
+
+--------------------------------------------------
+PHASE 4 — VALIDATION
+--------------------------------------------------
+
+After implementation verify:
+
+Technical:
+- Lighthouse SEO
+- Core Web Vitals
+- schema validation
+- robots
+- sitemap
+
+On-page:
+- title/meta validation
+- heading validation
+- internal links
+
+Regression:
+- no broken routes
+- no UI breakage
+- no JS errors
+- no backend errors
+
+Output final SEO score improvements.
+
+--------------------------------------------------
+PHASE 5 — OFF-PAGE STRATEGY
+--------------------------------------------------
+
+Do NOT auto-create backlinks.
+
+Instead generate:
+- backlink strategy
+- directory submission list
+- social distribution plan
+- content promotion plan
+
+Prioritize free options first.
+
+DONT START IMPLEMENTATION/UPDATES IN THE CURRENT CODE. JUST BRAINSTORM AND DEVISE A PHASE-BY-PHASE IMPLEMENTATION PLAN. THE DEVISED PLAN SHOULD GET REFLECTED IN THE CHAT AS WELL AS CREATE A SEPERATE .MD FILE FOR THE PLAN.

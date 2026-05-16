@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     url: "https://aiseosolutions.demo",
     siteName: "AI SEO Solutions",
     type: "website",
+    images: ["/images/image.jpg"],
   },
   alternates: {
     canonical: "https://aiseosolutions.demo",
@@ -35,6 +36,9 @@ export default function RootLayout({
   );
 }
 
-
-// adding global metadata-> improves title, meta description, keywords, OpenGraph, 
-// adding canonical tags in the metadata
+/*
+Improvements:
+1. Added Open Graph image
+2. Better social sharing previews
+3. Improved social SEO
+*/

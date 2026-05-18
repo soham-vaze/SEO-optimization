@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className="text-4xl mb-6">AI Solutions</h1>
 
         <img
-          src="/images/hero.jpg"
+          src="/images/image.jpg"
           className="w-full h-[700px] object-cover"
         />
 
